@@ -1,17 +1,54 @@
 import React from 'react';
-import './App.scss';
-import TeamComponent from '../components/TeamComponent/TeamComponent';
-import MyNavbar from '../components/MyNavbar/MyNavbar';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
+import fbConnection from '../helpers/data/connection';
+
 import Auth from '../components/Auth/Auth';
+import MyNavbar from '../components/MyNavbar/MyNavbar';
+import TeamComponent from '../components/TeamComponent/TeamComponent';
+
+import './App.scss';
+
+fbConnection();
 
 class App extends React.Component {
+  state = {
+    authed: false,
+  }
+
+  componentDidMount() {
+    this.removeListener = firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        this.setState({ authed: true });
+      } else {
+        this.setState({ authed: false });
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    this.removeListener();
+  }
+
   render() {
+    const { authed } = this.state;
+
+    const loadComponent = () => {
+      let componentToLoad = '';
+      if (authed) {
+        componentToLoad = <TeamComponent />;
+      } else {
+        componentToLoad = <Auth />;
+      }
+      return componentToLoad;
+    };
+
     return (
       <div className="App">
-        <MyNavbar />
+        <MyNavbar authed={authed}/>
         <h2 className="mt-3">Sports Roster</h2>
-        <Auth />
-        <TeamComponent />
+        {loadComponent()}
       </div>
     );
   }
