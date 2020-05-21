@@ -2,5 +2,9 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body {
-  background-color: $favColor;
+  font-family: $BodyFont !important;
+
+  h1 {
+    font-family: $TitleFont;
+  }
 }

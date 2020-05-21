@@ -7,4 +7,4 @@ const playerShape = PropTypes.shape({
   uid: PropTypes.string.isRequired,
 });
 
-export default playerShape;
+export default { playerShape };

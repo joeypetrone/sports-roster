@@ -23,8 +23,10 @@ class TeamComponent extends React.Component {
 
     return (
       <div className="TeamComponent">
-        <h1>Team Component</h1>
+        <h1 className="m-3">Nashville SC Roster</h1>
+        <div className="d-flex flex-wrap">
           {makePlayers}
+        </div>
       </div>
     );
   }
