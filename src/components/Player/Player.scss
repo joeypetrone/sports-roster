@@ -1,0 +1,16 @@
+.Player {
+  display: block;
+
+  .card {
+    border: none;
+    background: linear-gradient(0deg, #f8ff00 0%, #15185e 100%);
+
+    .card-img-top {
+      border-radius: 8px;
+    }
+
+    .card-body {
+      width: 190px;
+    }
+  }
+}

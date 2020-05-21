@@ -1,3 +1,17 @@
 .MyNavbar {
   display: block;
+
+  nav {
+    height: 55px;
+    background-color: #0f1145;
+
+    .navbar-brand {
+      width: 97.5px;
+
+      img {
+        margin-top: 55px;
+        width: 100%;
+      }
+    }
+  }
 }
