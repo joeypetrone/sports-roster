@@ -1,0 +1,182 @@
+{
+  "player01": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/David%20Accam_Headshot.png?itok=8Et50ELf",
+    "name": "David Accam",
+    "position": "Foward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player02": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Jalil%20Anibaba_Headshots.png?itok=Od64dOuA",
+    "name": "Jalil Anibaba",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  }, 
+  "player03": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Brian%20Anunga_Headshot.png?itok=XHL80Th-",
+    "name": "Tah Brian Anunga",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  }, 
+  "player04": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Dominique%20Badji_Headshot.png?itok=NVpcpDSD",
+    "name": "Dominique Badji",
+    "position": "Forward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  }, 
+  "player05": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Brayan%20Beckeles_Headshot.png?itok=XCtC9VK6",
+    "name": "Brayan Beckeles",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  }, 
+  "player06": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Abu%20Danladi_Headshot%20(1).png?itok=Jc2skyTr",
+    "name": "Abu Danladi",
+    "position": "Forward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player07": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Tanner%20Dieterich_Headshot.png?itok=wmJtDGDz",
+    "name": "Tanner Dieterich",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player08": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Anibal%20Godoy_Headshot%20(1).png?itok=jSe1clgW",
+    "name": "Aníbal Godoy",
+    "position": "Midfielder/Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player09": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/LukeHaakenson.png?itok=v-V1UFaO",
+    "name": "Luke Haakenson",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player10": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Alistair%20Johnston_Headshot%20(2).png?itok=huBja9sr",
+    "name": "Alistair Johnston",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player11": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Derrick%20Jones_Headshot.png?itok=BmSrd8EV",
+    "name": "Derrick Jones",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player12": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Matt%20LaGrassa_Headshot.png?itok=az4-Gyd-",
+    "name": "Matt LaGrassa",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player13": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Cameron%20Lancaster%20Headshot%20.png?itok=jZRFO1P-",
+    "name": "Cameron Lancaster",
+    "position": "Forward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player14": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Randall%20Leal_Headshot.png?itok=aThyepHI",
+    "name": "Randall Leal",
+    "position": "Forward/Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player15": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Dan%20Lovitz_Headshot.png?itok=LAGXTGAa",
+    "name": "Daniel Lovitz",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player16": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Jack%20Maher_Headshot.png?itok=k1phT-Uk",
+    "name": "Jack Maher",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player17": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Dax%20McCarty_Headshot.png?itok=fTUwiEVa",
+    "name": "Dax McCarty",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player18": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Jimmy%20Medranda_Headshot.png?itok=IPT4jX2q",
+    "name": "Jimmy Medranda",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player19": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Eric%20Miller_Headshot.png?itok=bd7FJB18",
+    "name": "Eric Miller",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player20": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Hany%20Mukhtar_Headshot.png?itok=-MBhC1XB",
+    "name": "Hany Mukhtar",
+    "position": "Midfielder",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player21": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Miguel%20Nazarit_Headshot.png?itok=M9QMDQuA",
+    "name": "Miguel Nazarit",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player22": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Elliot%20Panicco.png?itok=XgfJNJ_-",
+    "name": "Elliot Panicco",
+    "position": "Goalkeeper",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player23": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Daniel%20Rios_Headshot.png?itok=XWEWOX5K",
+    "name": "Daniel Ríos",
+    "position": "Forward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player24": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Dave%20Romney_Headshot.png?itok=K5IQ4yay",
+    "name": "Dave Romney",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player25": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Ken%20Tribbett_Headshot.png?itok=uPx5-Xbo",
+    "name": "Ken Tribbett",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player26": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Taylor%20Washington_Headshot.png?itok=m_i-td75",
+    "name": "Taylor Washington",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player27": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Joe%20Willis_Headshot.png?itok=YeqXJtCO",
+    "name": "Joe Willis",
+    "position": "Goalkeeper",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player28": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Alan%20Winn_Headshot%20(1).png?itok=hixaZYaa",
+    "name": "Alan Winn",
+    "position": "Forward",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player29": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/Adrian%20Zendejas_Headshot%20(1).png?itok=bdIkyn2F",
+    "name": "Adrían Zendejas",
+    "position": "Goalkeeper",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  },
+  "player30": {
+    "imageUrl": "https://nashville-mp7static.mlsdigital.net/styles/image_player_headshot/s3/20200220%20Walker%20Zimmerman-2.png?itok=omvM2r-s",
+    "name": "Walker Zimmerman",
+    "position": "Defender",
+    "uid": "urBHZqbpIzVw9vvXxeTT9B1dGtA2"
+  }    
+}
