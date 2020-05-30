@@ -8,12 +8,42 @@ import authData from '../../helpers/data/authData';
 class PlayerForm extends React.Component {
   static propTypes = {
     saveNewPlayer: PropTypes.func.isRequired,
+    putPlayer: PropTypes.func.isRequired,
+    player: PropTypes.object.isRequired,
   }
 
   state = {
     playerName: '',
     playerPosition: '',
     playerImageUrl: '',
+    isEditing: false,
+  }
+
+  componentDidMount = () => {
+    const { player } = this.props;
+    if (player.name) {
+      this.setState({
+        playerName: player.name,
+        playerPosition: player.position,
+        playerImageUrl: player.imageUrl,
+        isEditing: true,
+      });
+    }
+
+  }
+
+  componentDidUpdate = (prevProps) => {
+    const { player } = this.props;
+    if (this.props.player !== prevProps.player) {
+      if (player.name) {
+        this.setState({
+          playerName: player.name,
+          playerPosition: player.position,
+          playerImageUrl: player.imageUrl,
+          isEditing: true,
+        });
+      }
+    }
   }
 
   nameChange = (e) => {
@@ -44,8 +74,26 @@ class PlayerForm extends React.Component {
     saveNewPlayer(newPlayer);
   }
 
-  render() {
+  updatePlayer = (e) => {
+    e.preventDefault();
     const { playerName, playerPosition, playerImageUrl } = this.state;
+    const { player, putPlayer } = this.props;
+    const updatedPlayer = {
+      name: playerName,
+      position: playerPosition,
+      imageUrl: playerImageUrl,
+      uid: authData.getUid(),
+    };
+    putPlayer(player.id, updatedPlayer);
+  }
+
+  render() {
+    const {
+      playerName,
+      playerPosition,
+      playerImageUrl,
+      isEditing,
+    } = this.state;
 
     return (
       <div className="PlayerForm">
@@ -83,7 +131,10 @@ class PlayerForm extends React.Component {
               onChange={this.imageUrlChange}
               />
           </div>
-          <button className="btn btn-primary" onClick={this.savePlayer}>Save Player</button>
+          { isEditing
+            ? <button className="btn btn-primary" onClick={this.updatePlayer}>Update Player</button>
+            : <button className="btn btn-primary" onClick={this.savePlayer}>Save Player</button>
+          }
         </form>
       </div>
     );
