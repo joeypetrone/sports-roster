@@ -29,7 +29,6 @@ class PlayerForm extends React.Component {
         isEditing: true,
       });
     }
-
   }
 
   componentDidUpdate = (prevProps) => {
@@ -97,7 +96,7 @@ class PlayerForm extends React.Component {
 
     return (
       <div className="PlayerForm">
-        <form className="col-6 offset-3 bg-light rounded border p-3 mb-3">
+        <form className="col-sm-8 col-md-6 offset-md-3 bg-light rounded border p-3 mb-3">
           <div className="form-group">
             <label htmlFor="player-name">Player Name</label>
             <input
