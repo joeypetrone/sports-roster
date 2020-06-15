@@ -28,7 +28,7 @@ class Player extends React.Component {
     const { player } = this.props;
 
     return (
-      <div className="Player col-3">
+      <div className="Player col-sm-12 col-md-3 justify-content-center">
         <div className="card mb-4 mx-auto w-75 px-3 pt-3">
           <img className="card-img-top" src={player.imageUrl} alt="Player Card" />
           <div className="card-body px-0 pt-3 pb-3">

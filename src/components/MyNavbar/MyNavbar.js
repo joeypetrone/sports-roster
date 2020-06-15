@@ -1,4 +1,5 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -20,12 +21,9 @@ class MyNavbar extends React.Component {
 
     return (
       <div className="MyNavbar">
-        <nav className="navbar navbar-expand-lg">
-          <a className="navbar-brand" href="#"><img className="NSC-brand-logo" src="https://nashville-mp7static.mlsdigital.net/styles/non-retina_desktop_logo/s3/nashville-300x300.png?itok=z38pa3jS" alt="Nashville Soccer Club Logo"/></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <MediaQuery minDeviceWidth={769}>
+          <nav className="navbar navbar-expand-lg">
+            <a className="navbar-brand" href="#"><img className="NSC-brand-logo" src="https://nashville-mp7static.mlsdigital.net/styles/non-retina_desktop_logo/s3/nashville-300x300.png?itok=z38pa3jS" alt="Nashville Soccer Club Logo"/></a>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 {
@@ -35,8 +33,22 @@ class MyNavbar extends React.Component {
                 }
               </li>
             </ul>
-          </div>
-        </nav>
+          </nav>
+        </MediaQuery>
+        <MediaQuery maxDeviceWidth={768}>
+            <nav className="navbar navbar-mobile navbar-expand-lg px-2">
+              <a className="navbar-brand navbar-mobile-brand" href="#"><img className="NSC-brand-logo img-mobile" src="https://nashville-mp7static.mlsdigital.net/styles/non-retina_desktop_logo/s3/nashville-300x300.png?itok=z38pa3jS" alt="Nashville Soccer Club Logo"/></a>
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  {
+                    authed
+                      ? <button className="btn btn-danger btn-mobile text-white" onClick={this.logMeOut}>Logout</button>
+                      : ''
+                  }
+                </li>
+              </ul>
+            </nav>
+          </MediaQuery>
       </div>
     );
   }
